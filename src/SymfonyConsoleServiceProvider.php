@@ -1,5 +1,5 @@
 <?php
-namespace TheCodingMachine;
+namespace PSCS\Universal\Module;
 
 
 use Interop\Container\ContainerInterface;
@@ -7,7 +7,7 @@ use Interop\Container\ServiceProvider;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Helper\HelperSet;
 
-class SymgonyConsoleServiceProvider implements ServiceProvider
+class SymfonyConsoleServiceProvider implements ServiceProvider
 {
 
     /**

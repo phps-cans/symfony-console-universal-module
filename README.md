@@ -1,6 +1,3 @@
-[![Latest Stable Version](https://poser.pugx.org/thecodingmachine/symfony-console-universal-module/v/stable)](https://packagist.org/packages/thecodingmachine/symfony-console-universal-module)
-[![Latest Unstable Version](https://poser.pugx.org/thecodingmachine/symfony-console-universal-module/v/unstable)](https://packagist.org/packages/thecodingmachine/symfony-console-universal-module)
-[![License](https://poser.pugx.org/thecodingmachine/symfony-console-universal-module/license)](https://packagist.org/packages/thecodingmachine/symfony-console-universal-module)
 
 # Symfony console universal module
 
@@ -12,7 +9,7 @@ This package integrates [symfony/console](https://github.com/symfony/console) in
 composer require thecodingmachine/symfony-console-universal-module
 ```
 
-Once installed, you need to register the [`TheCodingMachine\SymfonyConsoleServiceProvider`](src/SymfonyConsoleServiceProvider.php) into your container.
+Once installed, you need to register the [`PSCS\Universal\Module\SymfonyConsoleServiceProvider`](src/SymfonyConsoleServiceProvider.php) into your container.
 
 If your container supports Puli integration, you have nothing to do. Otherwise, refer to your framework or container's documentation to learn how to register *service providers*.
 

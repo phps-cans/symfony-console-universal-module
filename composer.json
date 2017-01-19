@@ -1,5 +1,5 @@
 {
-  "name": "thecodingmachine/symfony-console-universal-module",
+  "name": "phps-cans/universal-module.symfony-console",
   "type": "library",
   "description": "Cross-framework module for symfony/console.",
   "keywords": ["symfony", "console", "service provider"],
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TheCodingMachine\\": "src/"
+      "PSCS\\Universal\\Module\\": "src/"
     }
   },
   "bin": [ "bin/application_console" ]
